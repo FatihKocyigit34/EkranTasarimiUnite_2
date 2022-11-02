@@ -12,6 +12,10 @@ public class MainActivity extends AppCompatActivity {
 
     Button btnUyg3;
     Button btnUyg4;
+    Button btnUyg5;
+    Button btnUyg8;
+    Button btnUyg9;
+    Button btnUyg10;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -20,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btnUyg4 = findViewById(R.id.btnUyg4);
         btnUyg3 = findViewById(R.id.btnUyg3);
+        btnUyg5 = findViewById(R.id.btnUyg5);
+        btnUyg8 = findViewById(R.id.btnUyg8);
+        btnUyg9 = findViewById(R.id.btnUyg9);
+        btnUyg10 = findViewById(R.id.btnUyg10);
+
 
         btnUyg3.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnUyg3.setOnClickListener(new View.OnClickListener() {
+        btnUyg4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent uyg4 = new Intent(MainActivity.this, Uyg4Activity.class);
@@ -37,6 +46,38 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnUyg5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent uyg5 = new Intent(MainActivity.this, Uyg5Activity.class);
+                startActivity(uyg5);
+            }
+        });
+
+        btnUyg8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent uyg8 = new Intent(MainActivity.this, Uyg8Activity.class);
+                startActivity(uyg8);
+            }
+        });
+
+        btnUyg9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent uyg9 = new Intent(MainActivity.this, Uyg9Activity.class);
+                startActivity(uyg9);
+            }
+        });
+
+        btnUyg10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent uyg10 = new Intent(MainActivity.this, Uyg10Activity.class);
+                startActivity(uyg10);
+
+            }
+        });
 
     }
 }

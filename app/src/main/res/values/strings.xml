@@ -5,4 +5,17 @@
     <string name="geri">Geri Dön</string>
     <string name="sifrenizi_giriniz">Şifrenizi Giriniz</string>
     <string name="Uyg4">Uygulama 4</string>
+    <string name="meblogoaciklama">Meb Logo</string>
+    <string name="uygulama_5">Uygulama 5</string>
+    <string name="checkbox2">CheckBox2</string>
+    <string name="checkbox3">CheckBox3</string>
+    <string name="checkbox1">CheckBox1</string>
+    <string name="uygulama_8">Uygulama 8</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="radiobutton2">RadioButton</string>
+    <string name="radiobutton3">RadioButton</string>
+    <string name="radiobutton4">RadioButton</string>
+    <string name="textview">TextView</string>
+    <string name="uygulama_9">Uygulama 9</string>
+    <string name="uygulama_10">Uygulama 10</string>
 </resources>
